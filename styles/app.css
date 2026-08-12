@@ -267,6 +267,19 @@ span .and {
   padding: var(--margin) 0px;
 }
 
+/* .section--featured__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.section-heading {
+  text-align: center;
+}
+
+.section-action {
+  text-align: center;
+}
+
 .section-heading h2 {
   font-size: var(--text-h2);
   font-weight: calc(var(--font-weight-light) - 1px);

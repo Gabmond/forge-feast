@@ -1,0 +1,99 @@
+:root {
+    /* =========================
+       TYPOGRAPHY SCALE
+    ========================== */
+    --text-sm: 1.5rem;
+    --text-base: 1.6rem;
+    --text-paragraph: 2rem;
+    --text-h5: 2.6rem;
+    --text-h4: 3.2rem;
+    --text-h3: 4rem;
+    --text-h2: 4.8rem;
+    --text-h1: 5rem;
+    --link-size: 1.8rem;
+  
+    /* FONT WEIGHT */
+    --font-weight-light: 300;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-normal: 500;
+  
+    /* LINE HEIGHT */
+    --line-height-tight: 1;
+    --line-height-normal: 1.3;
+    --line-height-spaced: 1.5;
+  
+    /* LETTER SPACING */
+    --letter-spacing-tight: -2px;
+    --letter-spacing-normal: 2px;
+    --letter-spacing-wide: 3.5px;
+  
+    /* FONT FAMILY */
+    --font-family-headings: "Cormorant Garamond", serif;
+    --font-family-body: "Inter", sans-serif;
+  
+    /* =========================
+       COLORS
+    ========================== */
+    /* PRIMARY (Headings, branding, active nav, section highlights, primary buttons) */
+    --primary-base: #7a1f2b;
+    --primary-tint: #A33A49;
+    --primary-shade: #56151E;
+
+    /* SECONDARY (Accents, feature icons, hover states, secondary buttons) */
+    --secondary-base: #C9A227;
+    --secondary-tint: #E0C15A;
+    --secondary-shade: #A88416;
+
+    /* TERTIARY (CTA buttons, icons, badges, hover effects) */
+    --tertiary-base: #1F5E3B;
+    --tertiary-tint: #3B7F59;
+    --tertiary-shade: #16432B;
+
+    --white: #FFFFFF;
+    --off-white: #F8F5F0;
+
+    --grey-100: #F4F4F4;
+    --grey-200: #E8E8E8;
+    --grey-300: #D1D1D1;
+    --grey-400: #A0A0A0;
+    --grey-500: #707070;
+    --grey-600: #4A4A4A;
+    --grey-700: #2B2B2B;
+
+    --black: #000000;
+
+   /* ==========================================
+      TEXT COLORS
+   ========================================== */
+    --text-primary: #333333;
+    --text-secondary: #707070;
+    --text-light: #ebebeb;
+
+   /* ==========================================
+      BACKGROUND COLORS
+   ========================================== */
+    --background-primary: #fff5f6;
+    --background-secondary: #f5eaec;
+    --background-dark: #381e22;
+
+   /* ==========================================
+      ACCENT COLORS
+   ========================================== */
+    --accent-success: #2E8B57;
+    --accent-warning: #E6A700;
+    --accent-error: #C0392B;
+    --accent-info: #2563EB;
+  
+    --grey-base: #495057;
+    --grey-tint: #f1f3f3;
+    --grey-shade: #212529;
+
+    --none: none;
+
+    --navbar-height: 90px;
+    
+    /* rename to margin_padding */
+    --margin: 10rem;
+  }
+  

@@ -1,0 +1,97 @@
+  a {
+    color: var(--secondary-base);
+    transition: 0.4s;
+  }
+
+  a:hover {
+    color: var(--secondary-tint);
+  }
+
+  /* Navbar Buttons */
+  .nav-content__link {
+    color: var(--grey-200);
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-normal);
+    transition: 0.4s;
+  }
+
+  .nav-content__link:hover {
+    color: var(--primary-base);
+  }
+
+  /* General Buttons */
+  .btn {
+    display: inline-block;
+    font-weight: var(--font-weight-bold);
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 10px;
+    padding: 1.2rem 2.4rem;
+    transition: 
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease;
+  }
+
+  .btn:hover {
+    color: var(--white);
+  }
+
+  /* Hero Buttons */
+  .btn--hero {
+    background-color: var(--primary-base);
+    padding: 1.4rem 2.4rem;
+  }
+
+  .btn--hero:hover,
+  .btn--hero:active {
+    background-color: var(--secondary-base);
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 3px 6px var(--black);
+  }
+  
+  .btn--primary:hover,
+  .btn--primary:active {
+    background-color: var(--primary-base);
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 3px 6px var(--black);
+  }
+
+  /* .btn--primary-nav {
+    color: var(--white);
+    background-color: var(--secondary-tint);
+    transition: 0.5s;
+  }
+
+  .btn--primary-nav:hover,
+  .btn--primary-nav:active {
+    background-color: var(--secondary-base);
+    transform: scale(1.1, 1.1);
+  } */
+
+  .btn--primary-outline {
+    outline: solid 1px var(--primary-base);
+    padding: 1.4rem 2.4rem;
+  }
+
+  .btn--primary-outline:hover,
+  .btn--primary-outline:active {
+    outline: solid 1px var(--secondary-base);
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 3px 6px var(--black);
+  }
+
+  .btn--secondary {
+    background-color: var(--secondary-base);
+  }
+
+  .btn--secondary:hover,
+  .btn--secondary:active {
+    background-color: var(--secondary-shade);
+    transform: scale(1.1, 1.1);
+  }
+
+

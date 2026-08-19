@@ -95,6 +95,10 @@ ul, li {
   width: 100%;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .navigation-bar {
   background-color: transparent;
   transition: background-color 0.1s ease, box-shadow 0.1s ease;
@@ -736,3 +740,47 @@ span .and {
   color: var(--grey-400);
   font-size: calc(var(--text-sm) - 0.2rem);
 }
+
+
+/* ---------- ON-SCROLL REVEAL ---------- */
+
+.will-animate {
+  opacity: 0;
+  transform: translateY(3rem);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.will-animate.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Media elements (images) fade in slightly slower + no vertical offset,
+   since they're often large and a big slide-up feels heavy */
+.split-layout__media.will-animate,
+.split-layout-2__media.will-animate {
+  transform: translateY(1.5rem);
+}
+
+/* Staggered reveal for grid/card layouts */
+.dish-grid .dish-card.will-animate:nth-child(1) { transition-delay: 0s; }
+.dish-grid .dish-card.will-animate:nth-child(2) { transition-delay: 0.12s; }
+.dish-grid .dish-card.will-animate:nth-child(3) { transition-delay: 0.24s; }
+.dish-grid .dish-card.will-animate:nth-child(4) { transition-delay: 0.36s; }
+
+.benefit-grid .benefit-card.will-animate:nth-child(1) { transition-delay: 0s; }
+.benefit-grid .benefit-card.will-animate:nth-child(2) { transition-delay: 0.12s; }
+.benefit-grid .benefit-card.will-animate:nth-child(3) { transition-delay: 0.24s; }
+
+.testimonial-grid .testimonial-card.will-animate:nth-child(1) { transition-delay: 0s; }
+.testimonial-grid .testimonial-card.will-animate:nth-child(2) { transition-delay: 0.12s; }
+.testimonial-grid .testimonial-card.will-animate:nth-child(3) { transition-delay: 0.24s; }
+
+.gallery .gallery__item.will-animate:nth-child(1) { transition-delay: 0s; }
+.gallery .gallery__item.will-animate:nth-child(2) { transition-delay: 0.08s; }
+.gallery .gallery__item.will-animate:nth-child(3) { transition-delay: 0.16s; }
+.gallery .gallery__item.will-animate:nth-child(4) { transition-delay: 0.24s; }
+.gallery .gallery__item.will-animate:nth-child(5) { transition-delay: 0.32s; }
+.gallery .gallery__item.will-animate:nth-child(6) { transition-delay: 0.4s; }
